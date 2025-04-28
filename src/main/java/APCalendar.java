@@ -14,12 +14,13 @@ public class APCalendar
   int count = 0;
   { 
   for( int i = year1; i<=year2; i++){
-    if (isLeapYear(i) == true ){
+    if (isLeapYear(i)){
     {
       count ++;
   }
+    }
     return count; 
-  }
+  
   }
   /** Returns the value representing the day of the week for the first day of year,
    *  where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday.
