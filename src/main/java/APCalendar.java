@@ -59,5 +59,5 @@ public class APCalendar
   {
    int years = firstDayOfYear(year);
     int days = dayOfYear(month, day, year) - 1;
-   return((years + days)%7);
+   return(years + days)%7;
 }
