@@ -61,3 +61,4 @@ public class APCalendar
     int days = dayOfYear(month, day, year) - 1;
    return(years + days)%7;
 }
+}
